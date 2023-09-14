@@ -1,0 +1,79 @@
+* Aprendiendo sobre flexbox
+
+** Flexbox
+Es un método o procedimiento de diseño de páginas webs unidimensional osea que solo tiene una dimensión.
+
+En otras palabras al ser flexbox unidimensional estamos indicando que: flexbox solo maneja una dimensión a la vez, esta puede ser fila o columna pero no ambas al mismo tiempo.
+
+** Ejes en flexbox
+
+En flexbox se usan 2 ejes los cuales son:
+
+*** Eje principal (main axis): Coresponde al eje "x".
+*** Eje transversal (eje secundario u eje cruzado) (cross axis): Viene siendo el eje "y".
+
+img.1
+
+
+** Elementos flexbox:
+Un elemento flexbox tiene la propiedad ~flex-direction~ que define la dirección del eje principal.
+
+** flex-direction:
+Tiene cuatro posibles valores que son:
+
+    1. row
+    2. row-reverse
+    3. column
+    4. column-reverse
+
+** Eje principal
+
+Si al elemento flexbox le damos un ~flex-direction: row o flex-direction: row-reverse~ este se establece a lo largo de la fila.
+
+La dirección de row es de izquierda a derecha, mientras que la dirección de row-reverse es al reves.
+
+** Eje cruzado (transversal)
+
+El eje transversal siempre es perpendicular al eje principal, si ~flex-direction~ del eje principal es row o row-reverse el eje cruzado irá por las columnas (column o column-reverse).
+
+~Nota importante:~
+Si el eje principal es ~column o column-reverse~ entonces el eje transversal corre a lo largo de las filas (row).
+
+** Ejemplos de flexbox
+
+** Ej. 01 flex-direction: row
+
+img.01
+
+#+begin_src css
+.row {
+  flex-direction: row;
+}
+#+end_src
+** Ej. 02 flex-direction: row-reverse
+
+img.02
+#+begin_src css
+.row-reverse {
+  flex-direction: row-reverse;
+}
+#+end_src
+
+** Ej. 03 flex-direction: column
+
+img.03
+#+begin_src css
+.column {
+  flex-direction: column;
+}
+#+end_src
+
+** Ej. 04 flex-direction: column-reverse
+
+img.04
+
+#+begin_src css
+.column-reverse {
+  flex-direction: column-reverse;
+}
+#+end_src

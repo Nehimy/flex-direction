@@ -1,0 +1,80 @@
+/*
+   El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte
+   del cálculo del ancho de la caja.
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+:root {
+    --cyan:#01acff;
+    --yellow:#ffbf00;
+    --white: #fff;
+    --white-light:#f3f8ff;
+    --sky-blue:#21e0ff;
+    --fucsia: #ff6bcc;
+    --bluelight: #377af9;
+    --green: #6dbb66;
+
+}
+
+*{
+    /* margin: 0px; */
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-family: 'ADLaM Display', cursive;
+}
+
+h1 {
+    color: var(--fucsia);
+}
+
+h2 {
+   color: var(--green);
+}
+
+img {
+    width: 55px;
+}
+
+
+[class*="container-"]{
+    background: var(--white-light);
+    width: 50vw;
+    height:  50vh;
+    display: flex;
+    border: 5px solid var(--sky-blue);
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+}
+
+[class*="square-"] {
+    height: 90px;
+    width: 75px;
+    margin: 5px;
+    background: var(--cyan);
+    color: var(--white);
+    border-radius: 10%;
+    display: grid;
+    place-content: center;
+}
