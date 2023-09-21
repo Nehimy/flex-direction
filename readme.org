@@ -1,3 +1,4 @@
+[[https://ney.one/wp-content/uploads/2023/09/post-de-flexbox.png]]
 * Aprendiendo sobre flexbox
 
 ** Flexbox
@@ -9,10 +10,10 @@ En otras palabras al ser flexbox unidimensional estamos indicando que: flexbox s
 
 En flexbox se usan 2 ejes los cuales son:
 
-*** Eje principal (main axis): Coresponde al eje "x".
-*** Eje transversal (eje secundario u eje cruzado) (cross axis): Viene siendo el eje "y".
+*** Eje principal (main axis).
+*** Eje transversal (eje secundario u eje cruzado) (cross axis).
 
-img.1
+https://ney.one/wp-content/uploads/2023/09/eje-principal-y-eje-transversal-654x169-2.png
 
 
 ** Elementos flexbox:
