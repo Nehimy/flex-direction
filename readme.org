@@ -13,8 +13,7 @@ En flexbox se usan 2 ejes los cuales son:
 *** Eje principal (main axis).
 *** Eje transversal (eje secundario u eje cruzado) (cross axis).
 
-https://ney.one/wp-content/uploads/2023/09/eje-principal-y-eje-transversal-654x169-2.png
-
+[[https://ney.one/wp-content/uploads/2023/09/eje-principal-y-eje-transversal-654x169-2.png]]
 
 ** Elementos flexbox:
 Un elemento flexbox tiene la propiedad ~flex-direction~ que define la dirección del eje principal.
